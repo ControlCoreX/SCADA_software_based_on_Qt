@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include
+-I "D:\实验室学习资料\自学STM32F407\My Programs\固件库工程模板\Project\RVMDK5\RTE"
+-I "D:\Program Files\MDK\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"
+-I "D:\Program Files\MDK\ARM\CMSIS\Include"
+-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "..\..\User\main.c"
